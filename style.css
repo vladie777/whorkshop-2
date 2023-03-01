@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./image/fonfo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  position: relative;
+  top: 15px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.title_jolteon {
+  color: white;
+  background-color: #ffcc01;
+  font-size: 40px;
+  position: absolute;
+  left: 145px;
+  top: 40px;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.header_color {
+  background-color: #0000ff;
+  width: 1299px;
+  height: 90px;
+  position: relative;
+  top: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.header_2 {
+  width: 80px;
+  float: left;
+  position: relative;
+  top: 0px;
+}
+
+.main_jolteon {
+  width: 45%;
+  float: top 150px;
+  position: relative;
+  top: 110px;
+  left: 10px;
+  bottom: 100px;
+}
+
+.table {
+  text-align: center;
+  float: right;
+  position: relative;
+  left: -20px;
+  top: 95px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  border-spacing: 60px;
+}
+
+#tr {
+  font-size: 25px;
+  color: #ffcc01;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#td {
+  font-size: 20px;
+}
+
+.main {
+  background-color: #ffcc01;
+  position: relative;
+  left: 0px;
+  top: 5px;
+  width: 1299px;
+  height: 800px;
+}
+
+.footer {
+  background-color: #0000ff;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 1299px;
+  height: 175px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.pokemon_1 {
+  width: 100px;
+  position: relative;
+  left: 550px;
+  top: -30px;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 0);
+  transition: all 0.5s;
+}
+
+.pokemon_2 {
+  width: 100px;
+  position: relative;
+  left: 600px;
+  top: -30px;
+  border-radius: 10px;
+  background-color: rgb(0, 255, 64);
+  transition: all 0.5s;
+}
+
+.pokemon_3 {
+  width: 100px;
+  position: relative;
+  left: 650px;
+  top: -30px;
+  border-radius: 10px;
+  background-color: rgb(255, 145, 0);
+  transition: all 0.5s;
+}
+
+.pokemon_4 {
+  width: 100px;
+  position: relative;
+  left: 700px;
+  top: -30px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 0);
+  transition: all 0.5s;
+}
+
+.pokemon_1:hover {
+  transform: scale(1.4);
+  filter: brightness(0.5);
+}
+
+.pokemon_2:hover {
+  transform: scale(1.4);
+  filter: brightness(0.5);
+}
+
+.pokemon_3:hover {
+  transform: scale(1.4);
+  filter: brightness(0.5);
+}
+
+.pokemon_4:hover {
+  transform: scale(1.4);
+  filter: brightness(0.5);
+}
+
+.title_otros {
+  font-family: "Oswald", sans-serif;
+  font-family: "Press Start 2P", cursive;
+  position: relative;
+  top: 50px;
+  left: 220px;
+  font-size: 40px;
+  color: #ffcc01;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
